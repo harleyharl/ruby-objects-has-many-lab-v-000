@@ -8,13 +8,12 @@ class Author
   end
 
   def add_post(post)
-    author = name.self
     @posts << post
   end
 
   def author
     @name
-  end 
+  end
 
   def posts
     @posts
