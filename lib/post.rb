@@ -3,10 +3,9 @@ class Post
 
   def initialize(title)
     @title = title
-    @author = author
   end
 
-  # def author
-  #
-  # end
+  def author_name(author)
+    @author = author
+  end
 end
