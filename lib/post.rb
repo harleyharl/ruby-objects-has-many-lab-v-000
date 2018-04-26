@@ -5,9 +5,13 @@ class Post
     @title = title
   end
 
-  def author_name(author = nil)
+  def author_name
     binding.pry
-    @author = author
+    if @author != nil
+      @author
+    else
+      nil
+    end
   end
 
 
