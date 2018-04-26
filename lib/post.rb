@@ -6,7 +6,9 @@ class Post
   end
 
   def author_name(author = nil)
+    binding.pry
     @author = author
   end
+
 
 end
