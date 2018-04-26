@@ -1,8 +1,8 @@
 class Post
   attr_accessor :author
 
-  # def initialize(post)
+  def initialize(post)
 
-  # end
+  end
 
 end
