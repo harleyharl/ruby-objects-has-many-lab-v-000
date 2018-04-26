@@ -7,12 +7,13 @@ class Post
 
   def author_name
     # binding.pry
-    if @author != nil
-      @author
+    if self.author
+      self.author.name
     else
       nil
     end
   end
+
 
 
 end
