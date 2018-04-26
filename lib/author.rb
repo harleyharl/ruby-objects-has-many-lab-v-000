@@ -12,7 +12,7 @@ class Author
     @posts << post
   end
 
-  def self.add_post_by_title(post, title)
+  def add_post_by_title(post, title)
     post.author = self
     @posts << post
   end
