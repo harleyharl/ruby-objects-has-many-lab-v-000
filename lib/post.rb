@@ -5,5 +5,9 @@ class Post
     author = @author
   end
 
+  def title
+    @title
+  end 
+
 
 end
