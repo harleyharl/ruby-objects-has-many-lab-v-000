@@ -23,7 +23,7 @@ class Author
   #   @name
   # end
 
-  def posts
+  def self.posts
     @posts
   end
 
