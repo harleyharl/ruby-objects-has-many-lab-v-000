@@ -5,7 +5,9 @@ class Song
     @name = name
   end
 
+  def song_count
+    @@song_count
+  end
 
-
-
+  
 end
