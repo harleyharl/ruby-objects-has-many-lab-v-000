@@ -17,9 +17,9 @@ class Author
     @posts << post
   end
 
-  def author
-    @name
-  end
+  # def author
+  #   @name
+  # end
 
   def posts
     @posts
