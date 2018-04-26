@@ -26,12 +26,12 @@ class Artist
     @@song_count
   end
 
-  def author
-    self
-  end 
-
   def songs
     @songs
+  end
+
+  def artist_name
+    @artist
   end
 
 end
