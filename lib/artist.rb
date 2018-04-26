@@ -18,6 +18,10 @@ class Artist
     song.artist = self
   end
 
+  def song_count
+    songs.count
+  end
+
   def songs
     @songs
   end
