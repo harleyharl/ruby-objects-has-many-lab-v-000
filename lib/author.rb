@@ -26,14 +26,8 @@ class Author
     @@post_count
   end
 
-  # def author
-  #   @name
-  # end
-
   def posts
     @posts
   end
-
-
 
 end
