@@ -7,9 +7,15 @@ class Author
     @posts = []
   end
 
+  def add_post(post)
+    author = name.self
+    @posts << post
+  end
+
   def posts
     @posts
-  end 
+  end
+
 
 
 end
